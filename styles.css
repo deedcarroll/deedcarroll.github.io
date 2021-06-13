@@ -1,0 +1,95 @@
+
+body {
+  background-image:url("./images/fullbody.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:rgba(142, 243, 243, 0.527);
+  background-blend-mode:lighten;   
+}
+.sidebarContainer{
+  display:grid;
+  grid-template-columns: 2fr 5fr;
+  
+  
+}
+.sidebar{
+  display:grid;
+  grid-template-rows: 4fr 3fr;
+  background-color:rgba(0, 128, 0, 0.274);
+  
+    
+}
+.image{
+  
+  width: 152px; 
+  height: 152px;
+  border-radius: 50%;
+  border-color:olivedrab;
+  border-style:groove;
+  border-width: 5px;
+  margin-left: 75px;
+  margin-top: 50px;
+
+             
+}
+.content{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ display:inline-flex;
+ flex-direction: column;
+   justify-content:first baseline;
+ justify-content:left;
+ padding-left: 50px;
+background-color: white;
+opacity: .5;
+}
+p {
+  padding: 100px 10px; /* Demo stuff */
+}
+
+.Name{
+  text-align: center;
+  font-weight: bold;
+  font-family:sans-serif; font-size: 36px;
+  font-style: italic; 
+}
+.TITLE{
+  text-align: center;
+  font-weight: bold;
+}
+
+.BIO {
+  font-size: 20px;
+      
+}
+.GC{
+  
+  padding: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+
+}
+.socials{
+  
+  display: flex;
+    justify-content: space-between;
+    max-width: 200px;     
+    align-items: center;     
+    padding: 25px;
+}
+.menu{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  font-size: 25px;
+  
+  display:flex;
+  flex-direction: column;
+  /* flex-wrap:nowrap; */
+  /* justify-content: center; */
+  justify-content: space-evenly;
+  /* max-height: 520px; */
+  /* align-items: center; */
+  /* background-color: khaki; */
+  margin-left: 20px;
+}
+.Contact{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
