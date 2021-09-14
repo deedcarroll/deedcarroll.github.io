@@ -1,0 +1,71 @@
+.person {
+    color: inherit;
+  }
+  
+  .person .person-avatar {
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  .person .person-content {
+    padding-left: 30px;
+    text-align: center;
+  }
+  .person .person-content .person-title {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .person .person-content .person-subtitle {
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  .person, .site-sidebar .posts-list>li {
+    display: block;
+  }
+   
+  
+  .avatar{
+    text-align: center;
+    width: 152px; 
+    height: 152px;
+    border-radius: 50%;
+    border-color:olivedrab;
+    border-style:groove;
+    border-width: 5px;
+    margin-left: 75px;
+    margin-top: 50px;
+  
+               
+  }
+  @media screen and (max-width: 1000px){
+  .main-navigation {
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 30px;
+    text-align:left;
+    /* margin: 20px -40px 0; */
+    
+  }
+}
+
+  .main-navigation .navigation-extend-bar {
+    font-size: 18px;
+    border: 1px solid rgba(255,255,255,.2);
+    border-width: 1px 0;
+    padding: 0 20px;
+    display: none;
+    
+  }
+  .main-navigation .navigation-extendable {
+    height: 0;
+    -webkit-transition: height .5s;
+    transition: height .5s;
+  }
+  
+
+.fa {
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}

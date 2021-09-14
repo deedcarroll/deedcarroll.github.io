@@ -1,0 +1,24 @@
+.content{
+    /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display:grid;
+    grid-template-rows: 4fr 1fr;
+    justify-content:flex-start;
+    */
+   
+   /* padding-left: 50px; */
+  /* background-color: rgba(255, 255, 255, 0.322);
+  
+  margin-left: 300px; /* Same as the width of the sidebar */
+  padding: 50px 10px;
+  } */
+
+  body {
+    background-image:url("./images/fullbody.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgba(142, 243, 243, 0.527);
+    background-blend-mode:lighten;   
+      font: 16px/1.6 Roboto,Helvetica,sans-serif;
+      font-weight: 300;
+  
+  }
