@@ -8,6 +8,7 @@ html {
     margin: 0px;
     display: flex;
     background-image:url("./images/fullbody.jpg");
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-color:rgba(142, 243, 243, 0.185);
